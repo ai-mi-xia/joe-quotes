@@ -1,0 +1,127 @@
+body {
+    background-image: 'space-background.jpeg' ;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: black;
+}
+
+/* TOP LINE ELEMENTS */
+
+.top-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8vh;
+}
+.refresh-button {
+    border: none;
+    font-size: 12px;
+    background-color: inherit;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(164, 164, 164)   
+}
+
+.quote-refresh {
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: rgb(207, 207, 207)   
+}
+
+.quote-refresh:hover {color: rgb(121, 206, 255);}
+
+.meditation-refresh {
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    color: rgb(207, 207, 207)   
+}
+
+.meditation-refresh:hover {color: rgb(255, 160, 226);}
+
+/* MIDDLE LINE ELEMENTS */
+
+.text-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+    flex-wrap: nowrap;
+    flex-flow: column nowrap;
+    column-gap: 20px;
+}
+.universe-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: rgb(168, 158, 113);
+    
+}
+
+.enter-button { 
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 400;
+    font-style: italic;
+    color: rgb(164, 164, 164)   
+}
+
+.enter-button:hover {color: rgb(255, 230, 177);}
+
+.meditation-name {
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: inherit;
+    font-family: 'Roboto Mono', monospace;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(168, 158, 113)   
+    
+}
+
+.meditation-name:hover {color: rgb(133, 231, 255);}
+
+.quote-text { 
+    font-family: 'Source Serif Pro', serif;
+    font-size: 32px;
+    text-align: center;
+    margin: 20px;
+    background-color: inherit;
+    color: rgb(197, 197, 197);   
+}
+
+.meditation-text{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 16px;
+    color: rgb(168, 158, 113);
+    
+}
+
+.error-msg{
+    border: none;
+    font-size: 12px;
+    background-color: inherit;
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(164, 164, 164)   
+}
+
+/* CANVAS ELEMENTS */
+canvas{
+    width: 100vw;
+    height: 100vh;
+    z-index: -5;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

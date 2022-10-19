@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joe Quotes</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;1,400&family=Source+Serif+Pro:ital@1&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="top-line">
+    <p class="refresh-button" id="refresh-button">Send me a new <button class="quote-refresh" id="quote-refresh">message</button> or <button class="meditation-refresh" id="meditation-refresh">meditation</button>!</p>
+    </div>
+    <div class="text-div">
+        <button class="enter-button" id="enter-button">ENTER THE UNKNOWN</button>
+        <p class="universe-text" id="universe-text">The quantum field's message for you today:</p>
+        <q class="quote-text" id="quote-text"> <span id="quote-name"></span></q>
+        <p class="meditation-text" id="meditation-text">Create your life with:<a id="url-id" target="_blank"  href=""><button class="meditation-name" id="meditation-name"></button></a></button></p>
+        <p class="error-msg" id="error-msg"></p>
+    </div>
+    <script src="three.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
